@@ -216,5 +216,5 @@ router.delete(
 // @ desc Tests posts route
 // @ access Public
 
-router.get("/test", (req, res) => res.json({ msg: "posts work!" }));
+// router.get("/test", (req, res) => res.json({ msg: "posts work!" }));
 module.exports = router;
